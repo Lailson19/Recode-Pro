@@ -1,4 +1,3 @@
 # Recode-Pro
-Exercícios e projetos práticos da Recode Pro 2020
 
-Ultilização e exemplificação de material usados em aulas.
+## Esse repositório é destinado a exercícios práticos do curso de formação Full Stack Recode Pro 2020.
