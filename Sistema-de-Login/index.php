@@ -17,7 +17,7 @@
                     <input type="passoword" placeholder="Senha" />
                     <button>Entrar</button>
                 </form>
-                <a href="cadastro.html">Ainda não possui cadastro? Clique aqui</a>
+                <a href="cadastro.php">Ainda não possui cadastro? Clique aqui</a>
             </div>
         </section>
         <section class="painel-img">
