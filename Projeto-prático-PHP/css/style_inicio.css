@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 0 !important;
+}
+
+footer{
+    margin-top: 0 !important;
+}
+
+footer img{
+    width: 20%;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+#form_pag{
+    color: red;
+    font-weight: bold;
+}

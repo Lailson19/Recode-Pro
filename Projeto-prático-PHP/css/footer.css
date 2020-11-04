@@ -1,0 +1,16 @@
+footer{
+    width: 100vw;
+    height: 20vh;
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+}
+
+footer img{
+    width: 20%;
+}
+
+#form_pag{
+    color: red;
+    font-weight: bold;
+}
