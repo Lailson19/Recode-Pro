@@ -11,3 +11,11 @@
 h6{
     font-size: 19px;
 }
+
+figure{
+    transition: ease-in 0.1s;
+}
+
+figure:hover{
+    transform: scale(1.1);
+}

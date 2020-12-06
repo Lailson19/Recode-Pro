@@ -8,18 +8,13 @@ import './style.css';
 function Contatos(){
     return(
         <main className="main container py-4">
-            <h1 className="h1 pb-3">Nossos Contatos</h1>
-            <div className="row mt-3">
+            <h1 className="h1 mb-4">Nossos Contatos</h1>
+            <div className="row mb-5">
                 <section className="col-sm-6 d-flex justify-content-center formContato">
                     <Mensagem />
                 </section>
                 <section className="col-sm-6 d-flex justify-content-center contatos">
                     <div>
-                        {/* <img class="imgContatoEmail" src={require("../imagens/email.png").default} alt="E-mail" />
-                        <label class="textContatoEmail">contato@fullstackeletro.com</label>
-                        <br>
-                        <img class="imgContatoWhats" src="./img/whats.png" alt="Whatsapp">
-                        <label class="textContatoWhats">(11) 99999-9999</label> */}
                         <Contatophone />
                     </div>
                 </section>
