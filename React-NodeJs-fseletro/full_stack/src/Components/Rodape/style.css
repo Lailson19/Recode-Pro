@@ -1,0 +1,13 @@
+.footer{
+    height: 15vh;
+    position: relative;
+}
+
+.footer-header{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer-cartoes{
+    width: 250px;
+}
