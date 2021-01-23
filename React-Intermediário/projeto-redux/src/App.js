@@ -25,34 +25,40 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="p-5">
       {/* <Menu /> */}
 
       <form>
-        <label>Informe um título:</label>
-        <input
-          placeholder="Digite o título"
+        <input className="text-info border-top-0 border-left-0 border-right-0 border p-1 w-100"
+          placeholder="Digite aqui o título da sua lista..."
           value={inputTitulo}
           onChange={alterarTitulo}
-        />
+        />        
       </form>
 
-      <h1>{stateTitulo}</h1>
-      <form onSubmit={adicionarFruta}>
-        <input
-          placeholder="Digite uma fruata..."
-          value={inputFrutas}
-          onChange={(event) => setinputFrutas(event.target.value)}
-        />
-        <button>Enviar</button>
-      </form>
+      <div className="container mt-4">
+        <h1 className="display-4 text-info">{stateTitulo}</h1>
 
-      {frutas.map((fruta, index) => {
-        return(
-          <li key={index}>{fruta.nome}</li>
-        )
-      })}
+        <form className="d-flex" onSubmit={adicionarFruta}>
+          <input className="form-group form-control form-control-sm col-sm-8 col-md-7 col-lg-5 col-xl-5 border-right-0 rounded-0 text-info"
+            placeholder="Digite seu itens..."
+            value={inputFrutas}
+            onChange={(event) => setinputFrutas(event.target.value)}
+          />
+          <button className="form-group form-control form-control-sm col-sm-4 col-md-3 col-lg-2 col-xl-2 border-left-0 rounded-0 alert-info text-info">Enviar</button>
+        </form>
 
+        <div className="list-group list-group-flush mt-1">
+          {frutas.map((fruta, index) => {
+            return(
+              <li className="list-group-item text-info py-1"
+                key={index}>{fruta.nome}
+              </li>
+            )
+          })}
+        </div>
+
+      </div>
     </div>
   );
 }

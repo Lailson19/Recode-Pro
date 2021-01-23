@@ -2,8 +2,8 @@ import { combineReducers } from 'redux';
 
 const initialState = {
     frutas: [
-        { nome: "Banana" },
-        { nome: "Maçã" }
+        // { nome: "Banana" },
+        // { nome: "Maçã" }
     ]
 }
 
@@ -15,7 +15,7 @@ function frutasReducer(state = initialState, action){
     }
 }
 
-function tituloReducer(state = {titulo: "frutas"}, action){
+function tituloReducer(state = {titulo: "Lista..."}, action){
     if(action.type === "ALTERAR"){
         return { titulo: action.value };
     }else{
