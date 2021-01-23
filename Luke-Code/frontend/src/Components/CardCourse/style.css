@@ -1,0 +1,14 @@
+.section2 .box .card-box{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.section2 .box .card-box article img{
+    border-radius: 2px;
+}
+
+.section2 .box .card-box article h5{
+    margin-top: 8px;
+    text-align: center;
+}

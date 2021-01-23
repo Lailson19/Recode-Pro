@@ -1,0 +1,29 @@
+.section3 .box .categories-box .category-card{
+    width: 340px;
+    height: 90px;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    display:flex;
+}
+
+.section3 .box .categories-box .category-card .category-card-image{
+    width: 92px;
+    height: 90px;
+    border-radius: 4px 0 0 4px;
+}
+
+.section3 .box .categories-box .category-card .category-card-content{
+    width: 248px;
+    height: 16px;
+}
+
+.section3 .box .categories-box .category-card .categories-card-content h4{
+    margin-left: 20px;
+}
+
+.section3 .box .categories-box .category-card .categories-card-content p{
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #494949;
+}
