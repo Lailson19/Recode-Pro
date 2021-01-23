@@ -1,0 +1,35 @@
+nav .link{
+    color: #ffeeee;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    background: #ff0000;
+    margin-bottom: 30px;
+}
+
+.capsula-logo{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+nav .logo{
+    width: 120px;
+}
+
+.grupo_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10%;
+    box-sizing: border-box;
+    height: 60px;
+    width: 70%;
+    margin-top: 1%;
+}

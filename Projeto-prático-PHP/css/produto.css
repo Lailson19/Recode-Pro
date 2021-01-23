@@ -1,0 +1,62 @@
+aside, section, .contatos, .formulario{
+    display: inline-block;
+}
+
+aside{
+    vertical-align: top;
+    width: 15%;
+}
+
+section{
+    width: 84%;
+}
+
+#copy{
+    margin-top: 20px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin-bottom: 5%;
+    height: 90vh;
+}
+
+.container .produtos{
+    font-family: arial;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    border: solid 1px rgb(230, 224, 224);
+}
+
+.produtos img{
+    width: 130px;
+    z-index: 0;
+}
+
+.valorAntes{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.valorDesc{
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 25px;
+}
+
+h4, li{
+    font-size: 18px;
+    color: #7c7c7c;
+}

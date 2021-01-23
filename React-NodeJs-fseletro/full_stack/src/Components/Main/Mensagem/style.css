@@ -1,0 +1,18 @@
+.form-control{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px #bdbdbd;
+}
+
+.btn.form-control{
+    background: #faa6af;
+    width: 80%;
+}
+
+h6{
+    color: #959595;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
