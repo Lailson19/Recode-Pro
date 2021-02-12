@@ -1,0 +1,20 @@
+.corpodoc{
+    height: 90vh;
+}
+
+.list-group-item{
+    font-size: 15px;
+}
+
+.card-img-top{
+    width: 60%;
+}
+
+a{
+    color: black;
+    transition: ease-out 0.1s;
+}
+
+a:hover{
+    transform: scale(1.2);
+}

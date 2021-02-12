@@ -1,3 +1,4 @@
+const cors = require('cors');
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -5,6 +6,7 @@ const mongoose = require("mongoose");
 
 // Config. JSON.
 app.use(express.json());
+app.use(cors());
 
 // Models.
 require("./src/models/Produto");
