@@ -1,6 +1,4 @@
 import React from 'react';
-
-import CardCategory from '../../components/CardCategory';
 import './styles.css';
 
 import separator from '../../assets/images/separator.svg';
@@ -12,6 +10,7 @@ import { lazy, Suspense } from 'react';
 
 const Yoda = lazy(() => import('../../components/Splitting/Yoda'));
 const CardImg = lazy(() => import('../../components/Splitting/CardImg'));
+const Categoria = lazy(() => import('../../components/Splitting/Categoria'));
 
 const Home = () => {
     return (
@@ -68,14 +67,9 @@ const Home = () => {
             <div className="section-3">
                 <div className="box">
                     <h2>O que oferecemos para você</h2>
-                    <section className="categories-container">
-                        <CardCategory title="BACK-END" courses="22 cursos" color="red" />
-                        <CardCategory title="BANCO DE DADOS" courses="2 cursos" color="yellow" />
-                        <CardCategory title="SEGURANÇA" courses="22 cursos" color="purple" />
-                        <CardCategory title="MOBILE" courses="17 cursos" color="blue" />
-                        <CardCategory title="FRONT-END" courses="12 cursos" color="green" />
-                        <CardCategory title="CLOUD-COMPUTING" courses="8 cursos" color="orange" />
-                    </section>
+                    <Suspense fallback={ <p>Carregando imagem...</p> }>
+                        <Categoria />
+                    </Suspense>
                 </div>
             </div>
 
