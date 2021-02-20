@@ -1,7 +1,6 @@
 import React from 'react';
-import { View, Text, ImageBackground, TextInput, TouchableOpacity, Platform, Alert } from 'react-native';
+import { View, Text, ImageBackground, TextInput, TouchableOpacity, Alert } from 'react-native';
 
-import Fundo from '../../../assets/fundo.jpg';
 import styles from './style';
 
 const apiusuario = {
@@ -17,7 +16,7 @@ function Login({navigation}){
             navigation.navigate("Tarefas");
         }else{
             Alert.alert("Usuário inválido!", "Esse usuário não existe.")
-        }        
+        }
     }
 
     const [usuario, setUsuario] = React.useState('');
@@ -25,10 +24,18 @@ function Login({navigation}){
 
     return(
         <View style={styles.caixa}>
-            <ImageBackground source={Fundo} style={styles.fundo}>
+            <ImageBackground
+            source={require('../../../assets/fundo.jpg')}
+            style={styles.fundo}>
+
+
 
                 <View>
-                    <Text style={styles.titulo}>Login</Text>
+                    <Text style={styles.icone}>[ ]</Text>
+                </View>
+
+                <View>
+                    <Text style={styles.titulo}>Faça seu login</Text>
                 </View>
 
                 <View style={styles.inputs}>
@@ -51,7 +58,9 @@ function Login({navigation}){
                     </TouchableOpacity>
 
                 </View>
-
+                <View>
+                    <Text style={styles.direito}>&copy;Copywriter |  Lailson Andesson</Text>
+                </View>
             </ImageBackground>
         </View>
     )

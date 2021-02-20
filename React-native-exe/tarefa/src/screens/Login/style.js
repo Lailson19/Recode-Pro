@@ -7,35 +7,47 @@ const styles = StyleSheet.create({
     fundo: {
         width: '100%',
         height: '100%',
+        flexDirection: 'column',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     titulo: {
         color: '#fff',
-        fontSize: 32
+        fontSize: 18,
+        fontStyle: 'italic',
     },
     inputs: {
-        width: '100%',
-        padding: '5%'
+        width: '90%',
+        padding: '5%',
     },
     input: {
         backgroundColor: '#fff',
         width: '100%',
         padding: 8,
-        marginVertical: 6,
-        borderRadius: 10
+        marginVertical: 8,
+        borderRadius: 10,
+
     },
     btn: {
-        backgroundColor: 'purple',
-        marginTop: 12,
+        backgroundColor: '#4B1C4D',
+        marginTop: 18,
         padding: 8,
         borderRadius: 4,
         borderRadius: 10
     },
     texto: {
         fontSize: 18,
-        color: '#fff',
+        color: '#CDB4CE',
         textAlign: 'center'
+    },
+    direito:{
+        color: '#CDB4CE',
+        marginBottom: 100,
+    },
+    icone:{
+        color: '#CDB4CE',
+        fontSize: 130,
+        marginVertical: 20
     }
 })
 
